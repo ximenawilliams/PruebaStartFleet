@@ -1,0 +1,201 @@
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<ion-header>
+
+    <ion-toolbar slot="start">
+  
+  <ion-buttons>
+    <ion-back-button text="Regresar" defaultHref="/"></ion-back-button>
+  </ion-buttons>
+  
+      <ion-title >Fleet Refill</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+
+<ion-content>
+
+<h1>Today</h1>
+    <ion-list class="List-group" > 
+        <ion-item  routerLink="/alert" >
+ 
+        
+          <ion-grid class="" >
+              <img src="startleetpremium.png" width="50" height="50"/>
+
+              <ion-row>
+                <ion-col>
+                    <ion-label> WENESDAY, </ion-label> 
+                </ion-col>
+                <ion-col>
+                    12/31/2018 - 12:00 AM
+                    {{ date }}
+                </ion-col>
+                
+              </ion-row>
+
+              <ion-row>
+                  <ion-col>
+                      <ion-label> 99.99</ion-label> 
+                  </ion-col>
+                  <ion-col>
+                  gallons
+                  </ion-col>
+             
+                </ion-row>
+
+              <ion-row>
+                  <ion-col>
+                      <ion-label> From:</ion-label> 
+                  </ion-col>
+                  <ion-col>
+                  Example tank Name1
+                  </ion-col>
+                 
+                </ion-row>
+                <ion-row>
+                    <ion-col>
+                        <ion-label> To: </ion-label> 
+                    </ion-col>
+                    <ion-col>
+                        Example Vehicle Name1
+                    </ion-col>
+                 
+                  </ion-row>
+                  <ion-row>
+                      <ion-col>
+                          <ion-label> Transaction ID: </ion-label> 
+                      </ion-col>
+                      <ion-col>
+                          ABCDEF123456
+                      </ion-col>
+                     <!-- <ion-col>
+                      
+                      </ion-col>-->
+                    </ion-row>
+              </ion-grid>
+             
+             <!-- <p>From:</p>>
+              <p>To:</p>      
+              <p>Transaction ID:</p>   -->
+     
+          </ion-item>    
+      </ion-list>
+
+  <ion-list>
+<h1>Yesterday</h1>
+
+<ion-grid>
+    <img src="startleetpremium.png" width="50" height="50"/>
+    <ion-row>
+      <ion-col>
+          <ion-label> WENESDAY, </ion-label> 
+      </ion-col>
+      <ion-col>
+          12/31/2018 - 12:00 AM
+          {{ date }}
+      </ion-col>
+      
+    </ion-row>
+
+    <ion-row>
+        <ion-col>
+            <ion-label> 99.99</ion-label> 
+        </ion-col>
+        <ion-col>
+        gallons
+        </ion-col>
+   
+      </ion-row>
+
+    <ion-row>
+        <ion-col>
+            <ion-label> From:</ion-label> 
+        </ion-col>
+        <ion-col>
+        Example tank Name1
+        </ion-col>
+       
+      </ion-row>
+      <ion-row>
+          <ion-col>
+              <ion-label> To: </ion-label> 
+          </ion-col>
+          <ion-col>
+              Example Vehicle Name1
+          </ion-col>
+       
+        </ion-row>
+        <ion-row>
+            <ion-col>
+                <ion-label> Transaction ID: </ion-label> 
+            </ion-col>
+            <ion-col>
+                ABCDEF123456
+            </ion-col>
+           <!-- <ion-col>
+            
+            </ion-col>-->
+          </ion-row>
+    </ion-grid>
+
+    <ion-grid>
+        <img src="startleetpremium.png" width="50" height="50"/>
+        <ion-row>
+          <ion-col>
+              <ion-label> WENESDAY, </ion-label> 
+          </ion-col>
+          <ion-col>
+              12/31/2018 - 12:00 AM
+              {{ date }}
+          </ion-col>
+          
+        </ion-row>
+
+        <ion-row>
+            <ion-col>
+                <ion-label> 99.99</ion-label> 
+            </ion-col>
+            <ion-col>
+            gallons
+            </ion-col>
+       
+          </ion-row>
+
+        <ion-row>
+            <ion-col>
+                <ion-label> From:</ion-label> 
+            </ion-col>
+            <ion-col>
+            Example tank Name1
+            </ion-col>
+           
+          </ion-row>
+          <ion-row>
+              <ion-col>
+                  <ion-label> To: </ion-label> 
+              </ion-col>
+              <ion-col>
+                  Example Vehicle Name1
+              </ion-col>
+           
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <ion-label> Transaction ID: </ion-label> 
+                </ion-col>
+                <ion-col>
+                    ABCDEF123456
+                </ion-col>
+               <!-- <ion-col>
+                
+                </ion-col>-->
+              </ion-row>
+        </ion-grid>
+
+
+
+</ion-list>
+ 
+
+</ion-content>
